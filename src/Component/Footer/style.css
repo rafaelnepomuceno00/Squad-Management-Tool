@@ -1,0 +1,16 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+    background-color: rgb(206, 204, 204);
+    color: rgb(109, 109, 109);
+    height: 35px;
+}
+footer p{
+    background-color: rgb(206, 204, 204);
+    padding-top: 5px;
+    text-align: center;
+    height: 100%;
+}

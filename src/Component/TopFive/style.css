@@ -1,0 +1,69 @@
+.topFive {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 370px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    padding: 5px 35px;
+    text-align: start;
+    color: #572d8b;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#hr2 {
+    margin-top: -15px;
+    height: 1px;
+    background-color: rgba(226, 223, 223, 0.959);
+    border: none;
+    margin-bottom: -35px;
+}
+
+.topFiveContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.top5{
+    width: 260px;
+    margin-top: 10px;
+  color:  rgb(43, 43, 43);
+  font-weight: 500;
+}
+.topFiveTitle{
+    margin: 0 0 10px 0;
+    font-weight: 500;
+}
+.innerContainer{
+    padding: 1px 5px 5px 5px;
+    background-color: #e7e7e7;
+    border-radius: 9px;
+}
+.teamTop5{
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.teamTop5 p{
+    margin: 2px 0 2px;
+    border: 0.2px solid #ffffff;
+}
+.teamTop5:hover{
+    border: 0.2px solid #aa1f44;
+    cursor: pointer;
+}
+.nameTeams5{
+    font-size: 14px;
+    font-weight: 370;
+}
+.pointTeams5{
+    font-size: 14px;
+}

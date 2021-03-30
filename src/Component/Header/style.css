@@ -1,0 +1,37 @@
+header{
+    background: #eb295d;
+    background: -webkit-linear-gradient(left, #eb295d 0%,#572d8b 100%);
+    width: 100%;
+}
+.Header{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+.navBrand{
+color :white; 
+display: flex;
+align-items: center;
+}
+.navBrand h1{
+    margin: 0;
+}
+.navBrand img{
+    width: 35px;
+    margin-right: 20px;
+}
+.userNav{
+display: flex;
+align-items: center;
+}
+.userNav p{
+    color: white;
+font-weight: 500;
+}
+.userNav img{
+    margin-left: 10px;
+    width: 35px;
+    border-radius: 50%;
+}

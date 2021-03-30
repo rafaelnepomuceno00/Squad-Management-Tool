@@ -1,0 +1,156 @@
+.myTeams {
+    background-color: white;
+    border-radius: 10px;
+    width: 600px;
+    height: 650px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+h2 {
+    padding: 5px 35px;
+    text-align: start;
+    color: #572d8b;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+#addIcon {
+    display: flex;
+    text-align: center;
+    background: #8f0e5d;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: 32px;
+    right: 35px;
+    cursor: pointer;
+    box-shadow: 0px 5px 20px 0.1px #aa1f44;
+}
+
+#addIcon div {
+    width: 25px;
+}
+
+#addIcon:hover {
+    background: #640841
+}
+
+#hr1 {
+    margin-top: -15px;
+    height: 1px;
+    background-color: rgba(226, 223, 223, 0.959);
+    border: none;
+}
+
+.myTeamsContainer {
+    margin: 10px;
+    height: 80%;
+}
+
+th:first-child {
+    padding-right: 5px;
+    border-right: 0.2px solid rgb(163, 163, 163);
+}
+
+table, tbody {
+    width: 100%;
+}
+
+a {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a::after {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sort-by-asc {
+    left: 3px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 0 3px;
+    background: transparent;
+    border-bottom: solid 7px #979491;
+    border-top-width: 0;
+}
+
+.sort-by-desc {
+    left: 3px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: solid 5px transparent;
+    margin: 4px 4px 0 3px;
+    background: transparent;
+    border-top: solid 7px #979491;
+    border-bottom-width: 0;
+}
+
+table, th {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+th, td {
+    padding-left: 15px;
+    height: 45px;
+}
+
+td {
+    border: none;
+    border-radius: 4px 4px;
+}
+
+tr {
+    margin-bottom: 45px;
+}
+
+#firstRow:hover {
+    background-color: white;
+    padding-bottom: 15px;
+}
+
+tr:hover {
+    background-color: #ee7bba1e;
+    color: #e2265e;
+    cursor: pointer;
+}
+
+
+.material-icons {
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.material-icons.pink {
+    color: #e2265e;
+}
+.icons{
+    display: inline;
+    width: 100%;
+    position: relative;
+    left: 200px;
+}
+.iconsHide{
+    display: none;
+}
+.btns:hover{
+    cursor: pointer;
+}
+.btns{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}

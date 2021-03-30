@@ -1,0 +1,35 @@
+.createTeamCopntainer {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    height: 650px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+h2 {
+    padding: 5px 35px;
+    text-align: start;
+    color: #572d8b;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+legend {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+fieldset {
+    border: none;
+    margin: 20px 50px;
+}
+
+.divForm {
+    display: flex;
+    flex-direction: column;
+}
+.formDiv{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+.field1 {
+    display: flex;
+    border-radius: 10px;
+    background: -webkit-linear-gradient(top, #eb295d 0%, #572d8b 100%);
+    width: 600px;
+    height: 280px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.teste {
+    display: inline-flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    color: white;
+}
+.percent1 {
+    align-self: flex-start;
+    margin-left: 10px;
+    border-bottom: 1px solid #fff;
+
+}
+
+img {
+    border-radius: 50%;
+    width: 90px;
+}
+
+.imgField1 {
+    border-radius: 50%;
+    border: 3px dashed #2b1c3d;
+    padding: 8px;
+}
